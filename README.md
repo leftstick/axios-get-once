@@ -63,7 +63,7 @@ for (let i = 0; i < 3; i++) {
 
 [npm-url]: https://npmjs.org/package/axios-last
 [npm-image]: https://badge.fury.io/js/axios-last.png
-[travis-url]: https://api.travis-ci.org/leftstick/axios-last.svg?branch=master
+[travis-url]: https://api.travis-ci.com/leftstick/axios-last.svg?branch=master
 [david-url]: https://david-dm.org/leftstick/axios-last.png
 [dt-url]: https://img.shields.io/npm/dt/axios-last.svg
 [license-url]: https://img.shields.io/npm/l/axios-last.svg
