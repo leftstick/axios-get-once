@@ -3,6 +3,7 @@ export default {
   cjs: 'rollup',
   doc: {
     src: './docs',
+    public: './docs/assets',
     themeConfig: { mode: 'light' },
     base: '/axios-last',
     title: 'axios-last',

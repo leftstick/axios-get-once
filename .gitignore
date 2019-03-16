@@ -3,7 +3,7 @@ node_modules
 package-lock.json
 
 #osx
-.DF_Store
+.DS_Store
 
 #docz
 .docz
