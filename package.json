@@ -33,9 +33,7 @@
     "url": "https://github.com/leftstick/axios-last/issues"
   },
   "homepage": "https://github.com/leftstick/axios-last#readme",
-  "dependencies": {
-    "umi-library": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "axios": "^0.18.0",
     "chai": "^4.2.0",
@@ -44,7 +42,8 @@
     "eslint-plugin-import": "^2.16.0",
     "mocha": "^6.0.2",
     "nock": "^10.0.6",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.3.3333",
+    "umi-library": "^1.2.0"
   },
   "peerDependencies": {
     "axios": "^0.18.0"
