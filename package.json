@@ -37,6 +37,7 @@
     "umi-library": "^1.2.0"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "chai": "^4.2.0",
     "eslint": "^5.15.2",
     "eslint-config-airbnb-base": "^13.1.0",
