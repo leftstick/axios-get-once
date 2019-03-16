@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"./.docz/app/imports.js":function(n,i,o){"use strict";o.r(i),o.d(i,"imports",function(){return d});var d={"index.mdx":function(){return o.e(1).then(o.bind(null,"./docs/index.mdx"))}}}},0,[1]]);
