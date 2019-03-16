@@ -1,0 +1,51 @@
+{
+  "name": "axios-last",
+  "version": "1.0.0",
+  "description": "Solution for taking the last value from multiple calls",
+  "scripts": {
+    "start": "umi-lib doc dev",
+    "doc": "umi-lib doc build && umi-lib doc deploy",
+    "build": "umi-lib build",
+    "prepublish": "npm run build",
+    "pretest": "npm run build",
+    "test": "mocha"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "typings/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leftstick/axios-last.git"
+  },
+  "files": [
+    "src",
+    "dist",
+    "typings"
+  ],
+  "keywords": [
+    "axios",
+    "last"
+  ],
+  "author": "Howard.Zuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leftstick/axios-last/issues"
+  },
+  "homepage": "https://github.com/leftstick/axios-last#readme",
+  "dependencies": {
+    "umi-library": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^6.0.2",
+    "nock": "^10.0.6",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "axios": "^0.18.0"
+  }
+}

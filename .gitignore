@@ -1,0 +1,9 @@
+#npm
+node_modules
+package-lock.json
+
+#osx
+.DF_Store
+
+#docz
+.docz
