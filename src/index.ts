@@ -1,9 +1,9 @@
-import axios from 'axios'
+import axios, { AxiosRequestConfig, AxiosPromise, AxiosInstance } from 'axios'
 
-export function create(apiInstance) {
+export function create(apiInstance?: AxiosInstance) {
   let previousCall = null
 
-  return function request(config) {
+  return function request(config: AxiosRequestConfig) {
     const api = apiInstance || axios
 
     if (previousCall) {

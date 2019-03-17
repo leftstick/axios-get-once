@@ -7,21 +7,20 @@
     "doc": "umi-lib doc build && umi-lib doc deploy",
     "build": "umi-lib build",
     "prepublish": "npm run build",
-    "pretest": "npm run build",
-    "test": "mocha"
+    "test": "npm run build && mocha"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "dist/index.esm.js",
-  "typings": "typings/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leftstick/axios-last.git"
   },
   "files": [
     "src",
-    "dist",
-    "typings"
+    "dist"
   ],
   "keywords": [
     "axios",
