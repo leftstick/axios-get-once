@@ -1,10 +1,10 @@
 {
-  "app.js": "/axios-last/static/js/app.13c56d31.js",
-  "contribute.js": "/axios-last/static/js/contribute.97915e90.js",
-  "index.js": "/axios-last/static/js/index.28ac2580.js",
-  "runtime~app.js": "/axios-last/static/js/runtime~app.7047788b16a0b1cf6c9f.js",
+  "1-home.js": "/axios-last/static/js/1-home.af9ae626.js",
+  "2-contribute.js": "/axios-last/static/js/2-contribute.037dd843.js",
+  "app.js": "/axios-last/static/js/app.a135fed9.js",
+  "runtime~app.js": "/axios-last/static/js/runtime~app.98deffd837a2949a234f.js",
   "vendors.js": "/axios-last/static/js/vendors.b2ac61fe.js",
-  "static/js/5.b2c6e1f5.js": "/axios-last/static/js/5.b2c6e1f5.js",
+  "static/js/5.a112759b.js": "/axios-last/static/js/5.a112759b.js",
   "index.html": "/axios-last/index.html",
   "static/img/example.gif": "/axios-last/static/img/example.e53d8f3c.gif"
 }
