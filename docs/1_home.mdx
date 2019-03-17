@@ -49,3 +49,28 @@ for (let i = 0; i < 3; i++) {
   })
 }
 ```
+
+```javascript
+import axios from 'axios'
+import { create } from 'axios-last'
+
+const instance = axios.create({
+  baseURL: 'https://test.api.com'
+})
+
+// you can specify axiosInstance for a reason
+const request = create(instance)
+
+for (let i = 0; i < 3; i++) {
+  request({
+    method: 'GET',
+    url: 'https://test.com/users',
+    params: {
+      name: i
+    }
+  }).then(res => {
+    // only request with name === 2 received
+    // all previous requests were cancelled while subsequent request made
+  })
+}
+```

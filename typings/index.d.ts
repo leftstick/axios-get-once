@@ -1,6 +1,6 @@
-import axios, { AxiosRequestConfig, AxiosPromise } from 'axios'
+import axios, { AxiosRequestConfig, AxiosPromise, AxiosInstance } from 'axios'
 
-export function create() {
+export function create(apiInstance?: AxiosInstance) {
   return function request(config: AxiosRequestConfig): AxiosPromise<any> {
     return axios()
   }
