@@ -6,7 +6,7 @@
     "start": "umi-lib doc dev",
     "doc": "umi-lib doc build && umi-lib doc deploy",
     "build": "umi-lib build",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "test": "npm run build && mocha"
   },
   "main": "dist/index.js",
