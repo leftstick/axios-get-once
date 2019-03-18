@@ -16,8 +16,12 @@ export function create(apiInstance?: AxiosInstance) {
         ...config,
         cancelToken: previousCall.token
       })
-        .then(resolve)
+        .then(res => {
+          previousCall = null
+          resolve(res)
+        })
         .catch(err => {
+          previousCall = null
           if (!axios.isCancel(err)) {
             reject(err)
           }
