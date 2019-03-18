@@ -32,10 +32,10 @@
     "url": "https://github.com/leftstick/axios-last/issues"
   },
   "homepage": "https://github.com/leftstick/axios-last#readme",
-  "dependencies": {},
   "devDependencies": {
     "axios": "^0.18.0",
     "chai": "^4.2.0",
+    "docz-plugin-splash": "^1.0.0",
     "eslint": "^5.15.2",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
