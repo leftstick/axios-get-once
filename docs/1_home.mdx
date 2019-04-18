@@ -3,7 +3,10 @@ name: Getting Started
 route: /
 ---
 
-import exampleGif from './assets/example.gif'
+export const exampleSrc =
+  process.env.NODE_ENV === 'development'
+    ? '/public/example.gif'
+    : process.env.PUBLIC_URL + 'public/example.gif'
 
 ## Why axios-last
 
@@ -13,7 +16,7 @@ What if you don't like `Rx.js`? I am right here!!!
 
 Let's feel how it helps:
 
-<img src={exampleGif} alt="example" style={{ width: '100%' }} />
+<img src={exampleSrc} alt="example" style={{ width: '100%' }} />
 
 ## Installation
 
