@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Solution for taking the last value from multiple calls",
   "scripts": {
-    "start": "umi-lib doc dev",
-    "doc": "umi-lib doc build && cpx docs/404.html .docz/dist/ && umi-lib doc deploy",
-    "build": "umi-lib build",
+    "start": "father doc dev",
+    "doc": "father doc build && cpx docs/404.html .docz/dist/ && father doc deploy",
+    "build": "father build",
     "prepare": "npm run build",
     "test": "npm run build && mocha"
   },
@@ -39,11 +39,11 @@
     "docz-plugin-splash": "^1.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-import": "^2.17.3",
+    "father": "^2.3.0",
     "mocha": "^6.1.4",
     "nock": "^10.0.6",
-    "typescript": "^3.4.5",
-    "umi-library": "^1.5.1"
+    "typescript": "^3.5.1"
   },
   "peerDependencies": {
     "axios": "^0.18.0"
