@@ -33,19 +33,19 @@
   },
   "homepage": "https://github.com/leftstick/axios-last#readme",
   "devDependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.2",
     "chai": "^4.2.0",
     "cpx": "^1.5.0",
     "docz-plugin-splash": "^1.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "father": "^2.3.0",
-    "mocha": "^6.1.4",
-    "nock": "^10.0.6",
-    "typescript": "^3.5.1"
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.21.1",
+    "father": "^2.29.3",
+    "mocha": "^7.2.0",
+    "nock": "^12.0.3",
+    "typescript": "^3.9.5"
   },
   "peerDependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.19.2"
   }
 }
