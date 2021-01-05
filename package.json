@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/leftstick/axios-last#readme",
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "chai": "^4.2.0",
     "cpx": "^1.5.0",
     "docz-plugin-splash": "^1.0.1",
@@ -46,6 +46,6 @@
     "typescript": "^3.9.5"
   },
   "peerDependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
